@@ -10,7 +10,7 @@ function NavBar(){
         <ThemeProvider theme={theme}>
             <div className='navbar-container'>
                 <div className='logo-container'>
-                    <span>Logo</span>
+                    <span>(Logo Here)</span>
                 </div>
                 <div className='navlink-container'>
                   <Link 
@@ -35,13 +35,13 @@ function NavBar(){
                 </div>
                 <div className='navlink-container-social'>
                   <Link 
-                  href='#' className='nav-link-social' underline='none'
-                  >GITHUB LINK</Link>
+                  href='https://github.com/jtompkins415' className='nav-link-social' underline='none'
+                  ><img src='src/assets/github-mark/github-mark-white.png' alt='github-logo' width={45}/></Link>
                   <Link 
-                  href='#' 
+                  href='https://www.linkedin.com/in/jtompkins415/' 
                   className='nav-link-social'
                   underline='none'
-                  >LINKEDIN LINK</Link>
+                  ><img className='nav-social-img' src='src/assets/LinkedIn_logo.png' width={45} style={{ filter: 'hue-rotate(270deg)' }}/></Link>
                 </div>
                 
             </div>
