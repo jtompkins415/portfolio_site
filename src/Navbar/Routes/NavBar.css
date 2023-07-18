@@ -1,36 +1,46 @@
 .navbar-container {
     font-size: 16px;
     width: 100%;
-    margin: 0 auto;
+    margin: 3rem auto;
     display: inline-flex;
     justify-content: space-between;
     align-content: center;
     text-transform: uppercase;
+    
 }
 
 .logo-container {
     margin-right: 4rem;
+    color:#FFFFFF;
 }
 
-.navlink-container{
-    background-color: #C09EE6;
-    padding: 10px;
-    border-radius: 50%;
-    opacity: 100%;
-}
 .navlink-container .nav-link {
-    padding: 1rem;
+    margin: auto -5rem;
     text-decoration: none;
-    color: #331069;
+    color: #FFFFFF;
     opacity: 100%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    letter-spacing: .5rem;
+    transition: color, letter-spacing 1.5s ease-out;
     
 }
 
 .nav-link:hover {
-    color: #C09EE6;
+    color: #af83e2;
+    letter-spacing: .7rem;
+    
+}
+
+.navlink-container-social {
+    margin-top: -1rem;
 }
 
 .nav-link-social {
     padding: .5rem;
     text-decoration: none;
+}
+
+.nav-social-img{
+    filter: hue-rotate(270deg);
 }
