@@ -1,16 +1,17 @@
 import { useState } from 'react'
 import './App.css';
-import NavBar from './Navbar/Routes/NavBar'
+import NavBar from './Navbar/Routes/NavBar';
+import HeroBanner from './HeroBanner/HeroBanner';
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
         <NavBar />
-      
+        <HeroBanner />
     </>
   )
 }
 
-export default App
+export default App;
