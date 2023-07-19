@@ -1,0 +1,21 @@
+.about-container {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section-title h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.image-container img {
+    width: 400px;
+    border-radius: 50%;
+}
