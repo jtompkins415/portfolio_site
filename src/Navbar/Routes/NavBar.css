@@ -22,18 +22,20 @@
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     letter-spacing: .5rem;
-    transition: color, letter-spacing 1.5s ease-out;
+    transition-property: color, letter-spacing;
+    transition-duration: 1.5s;
+    
     
 }
 
 .nav-link:hover {
-    color: #af83e2;
+    color: #4AFFAD;
     letter-spacing: .7rem;
     
 }
 
 .navlink-container-social {
-    margin-top: -1rem;
+    margin-top: -.7rem;
 }
 
 .nav-link-social {
