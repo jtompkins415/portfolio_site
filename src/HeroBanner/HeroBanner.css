@@ -1,0 +1,45 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+
+}
+
+.hero-title {
+    color: #4AFFAD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+
+.hero-title h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: start;
+    letter-spacing: 1.5rem;
+    width: 600px;
+    border-radius: 50%;
+    background-color: #cb9828;
+    text-shadow: black .5rem .3rem ;
+}
+
+.hero-title h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    width: 200px;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: #845A94;
+    border-radius: 50%;
+    text-shadow: black .3rem .1rem ;
+}
+
+.hero-image-container img {
+    width: 400px;
+    border-radius: 30%;
+}
