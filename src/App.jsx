@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './Navbar/Routes/NavBar';
 import HeroBanner from './HeroBanner/HeroBanner';
 import AboutSection from './AboutSection/AboutSection';
+import ProjectContainer from './ProjectContainer/ProjectContainer';
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
         <NavBar />
         <HeroBanner />
         <AboutSection />
+        <ProjectContainer />
     </>
   )
 }
