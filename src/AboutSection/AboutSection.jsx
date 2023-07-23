@@ -23,7 +23,7 @@ function AboutSection(){
                 </div>
                 <div className={`content-container ${isVisible ? 'fade-in' : ''}`}>
                     <div className={`text-container ${isVisible ? 'fade-in' : ''}`}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ex, quidem earum reprehenderit perspiciatis architecto cupiditate odio, accusamus ut officiis culpa reiciendis fugiat sint neque. Architecto a eum ad vel!</p>
+                        <p>As a freelance web developer, I am passionate about crafting unique and engaging online experiences that captivate audiences and drive results. Whether you need a sleek and modern website for your business, an eye-catching portfolio to showcase your work, or a dynamic e-commerce platform to boost sales, I've got you covered.</p>
                     </div>
                     <div className={`profile-image-container ${isVisible ? 'fade-in' : ''}`}>
                         <img className={isVisible ? 'fade-in' : ''}
