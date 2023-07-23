@@ -9,7 +9,7 @@ export const projectObjectArray = [
         name: 'PROVISIONS: Online Storefront',
         description: 'PROVISIONS is an online platform providing users access to a highly currated selection of craft beer, natural wine, N/A beverages, and specialty food items.',
         techStack: ['Flask', 'SQLAlchemy', 'Jinja', 'WTForms', 'PostgreSQL'],
-        imgSrc: '',
+        imgSrc: 'src/assets/project-pics/provisions_landingpage.png',
         url: 'https://github.com/jtompkins415/capstone-1-provisions'
     }
 ]
