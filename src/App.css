@@ -1,7 +1,11 @@
 #root {
-  margin: 0 auto;
-  padding: 2rem;
+
+  width:100%;
   text-align: center;
   background-color: #181a18;
+}
+
+body{
+  margin:0;
 }
 
