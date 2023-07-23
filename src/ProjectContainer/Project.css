@@ -4,16 +4,14 @@
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    margin-right: 50px;
+    margin-right: 30px;
     width: 500px;
     border: #11F5B8 3px solid;
     border-radius: 15%;
     padding: 50px;
 }
 
-.image-container {
-    border: #FFFFFF 1px solid;
-}
+
 
 .description-container {
     font-family: 'Jost', sans-serif;
@@ -22,4 +20,5 @@
 
 .image-container img {
     width: 350px;
+    border-radius: 10%;
 }
