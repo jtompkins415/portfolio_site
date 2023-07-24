@@ -1,8 +1,8 @@
-import {useState, useEffect} from 'react';
-import { Button } from '@mui/material';
+import {useState} from 'react';
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com'
 import { variableObject } from './variableObjectPrivate';
+import './ContactForm.css';
 
 function ContactForm(){
     
@@ -57,39 +57,42 @@ function ContactForm(){
             <div className='form-title-container'>
                 <h2> Let's Collaborate! </h2>
             </div>
-            <div className='form-cta-container'>
-                <p>Let's join forces and turn your vision into reality.</p>
-                <p>Don't hesitate to reach out and share your project details with me. Whether you have a clear roadmap or just a spark of an idea, I'll listen attentively and work closely with you to deliver a tailor-made solution that meets your needs and exceeds your expectations.</p>
-            </div>
-            <div className='form-container'>
-                <form onSubmit={handleSubmit}>
-                    <label htmlFor='name'>Name: </label>
-                    <input 
-                    type='text' 
-                    id='name' 
-                    name='name'
-                    value={formData.name}
-                    onChange={handleChange} 
-                    required />
-                    <label htmlFor='email'>Email: </label>
-                    <input 
-                    type='email'
-                    id='email'
-                    name='email'
-                    value={formData.email}
-                    onChange={handleChange}
-                    required />
-                    <label htmlFor='message'>What's Your Idea?</label>
-                    <textarea 
-                    id='meessage' 
-                    name='message' 
-                    rows={5} 
-                    cols={33}
-                    value={formData.message}
-                    onChange={handleChange}
-                    required />
-                    <button>Submit</button>
-                </form>
+            <div className='form-content-container'>
+                <div className='form-cta-container'>
+                    <p>Let's join forces and turn your vision into reality.</p>
+                    <p>Don't hesitate to reach out and share your project details with me. Whether you have a clear roadmap or just a spark of an idea, I'll listen attentively and work closely with you to deliver a tailor-made solution that meets your needs and exceeds your expectations.</p>
+                </div>
+                <div className='form-container'>
+                    <form onSubmit={handleSubmit}>
+                        <label htmlFor='name'>Name: </label>
+                        <input 
+                        type='text' 
+                        id='name' 
+                        name='name'
+                        value={formData.name}
+                        onChange={handleChange} 
+                        required />
+                        <label htmlFor='email'>Email: </label>
+                        <input 
+                        type='email'
+                        id='email'
+                        name='email'
+                        value={formData.email}
+                        onChange={handleChange}
+                        required />
+                        <label htmlFor='message'>What's Your Idea?</label>
+                        <textarea 
+                        id='meessage' 
+                        name='message' 
+                        rows={5} 
+                        cols={33}
+                        value={formData.message}
+                        onChange={handleChange}
+                        required />
+                        <button>Submit</button>
+                        
+                    </form>
+                </div>
             </div>  
         </div>
         
