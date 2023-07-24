@@ -1,11 +1,16 @@
 import {useState, useEffect} from 'react';
 import { Button } from '@mui/material';
+import Swal from 'sweetalert2';
+import emailjs from 'emailjs-com'
+import { variableObject } from './variableObjectPrivate';
 
 function ContactForm(){
     
-    const SERVICE_ID = process.env.SERVICE_ID;
-    const TEMPLATE_ID = process.env.TEMPLATE_ID;
-    const PUBLIC_KEY = process.env.PUBLIC_KEY;
+    const {serviceId, templateId, publicKey} = variableObject
+
+    const SERVICE_ID = serviceId;
+    const TEMPLATE_ID = templateId;
+    const PUBLIC_KEY = publicKey;
 
 
     const [formData, setFormData] = useState({
@@ -16,12 +21,35 @@ function ContactForm(){
 
 
      function handleChange(e){
-        const [name, value] = e.target;
+        const {name, value} = e.target;
         setFormData((prev) => ({
             ...prev,
             [name]: value
         }));
      };
+
+     function handleSubmit(e){
+        e.preventDefault();
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target,PUBLIC_KEY).then((result) => {
+            console.log(result.text);
+            Swal.fire({
+                icon: 'success',
+                title: 'Message sent successfully!'
+            })
+        }, (error) => {
+            console.log(error.text);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error sending message',
+                text: error.text
+            })
+        });
+        setFormData({
+            name: '',
+            email: '',
+            message: ''
+        })
+     }
 
 
     return(
@@ -34,7 +62,7 @@ function ContactForm(){
                 <p>Don't hesitate to reach out and share your project details with me. Whether you have a clear roadmap or just a spark of an idea, I'll listen attentively and work closely with you to deliver a tailor-made solution that meets your needs and exceeds your expectations.</p>
             </div>
             <div className='form-container'>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <label htmlFor='name'>Name: </label>
                     <input 
                     type='text' 
@@ -60,7 +88,7 @@ function ContactForm(){
                     value={formData.message}
                     onChange={handleChange}
                     required />
-                    <Button variant='contained'>Submit</Button>
+                    <button>Submit</button>
                 </form>
             </div>  
         </div>
