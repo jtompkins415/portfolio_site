@@ -4,6 +4,7 @@ import NavBar from './Navbar/Routes/NavBar';
 import HeroBanner from './HeroBanner/HeroBanner';
 import AboutSection from './AboutSection/AboutSection';
 import ProjectContainer from './ProjectContainer/ProjectContainer';
+import ContactForm from './ContactForm.js/ContactForm';
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
         <HeroBanner />
         <AboutSection />
         <ProjectContainer />
+        <ContactForm />
     </>
   )
 }
