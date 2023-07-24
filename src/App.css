@@ -1,11 +1,14 @@
-#root {
+html, body{
+  margin:0;
+}
 
+
+
+#root {
+  height: 100%;
   width:100%;
   text-align: center;
   background-color: #181a18;
 }
 
-body{
-  margin:0;
-}
 
