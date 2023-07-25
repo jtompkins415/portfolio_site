@@ -11,5 +11,12 @@ export const projectObjectArray = [
         techStack: ['Flask', 'SQLAlchemy', 'Jinja', 'WTForms', 'PostgreSQL'],
         imgSrc: 'src/assets/project-pics/provisions_landingpage.png',
         url: 'https://github.com/jtompkins415/capstone-1-provisions'
+    },
+    {
+        name: 'LEAGUEPULSE',
+        description: 'LeaguePulse is an exhilarating web application designed to elevate your fantasy sports experience. With LeaguePulse, you can effortlessly create newsletter-style briefs, capturing the heart-pounding excitement of your weekly fantasy league matchups.',
+        techStack: ['React','Vite', 'TailwindCSS','Ant Design', 'MongoDB', 'Express.js' ],
+        imgSrc: '',
+        url: ''
     }
 ]

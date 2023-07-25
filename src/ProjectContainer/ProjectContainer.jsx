@@ -12,6 +12,7 @@ function ProjectContainer(){
             <div className="project-content-container">
                 <Project projectObject={projectObjectArray[0]} />
                 <Project projectObject={projectObjectArray[1]} />
+                <Project projectObject={projectObjectArray[2]} />
             </div>
         </div>
     )
