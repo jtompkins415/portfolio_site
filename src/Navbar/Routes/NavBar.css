@@ -6,10 +6,12 @@
     justify-content: space-between;
     align-content: center;
     text-transform: uppercase;
+    /* border-bottom: #170C05 1px solid; */
     
 }
 
 .logo-container {
+    margin-left: 2rem;
     margin-right: 4rem;
     color:#170C05;
 }
