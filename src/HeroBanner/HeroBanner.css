@@ -8,11 +8,11 @@
 }
 
 .hero-title {
-    color: #4AFFAD;
+    color: #0e0703;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 900px;   
+    width: 600px;   
 }
 
 
@@ -24,19 +24,18 @@
     text-align: start;
     letter-spacing: 1.5rem;
     width: 600px;
-    text-shadow: black .5rem .3rem ;
-    border-right: #4AFFAD 3px solid;
+    border-right: #C47541 3px solid;
 }
 
-.hero-title h2 {
+.hero-subtitle h2 {
+    color: #0e0703;
     font-family: 'Jost', sans-serif;
     font-weight: 300;
     font-size: 2rem;
-    width: 200px;
+    width: 300px;
     text-transform: uppercase;
     font-style: italic;
     border-radius: 50%;
-    text-shadow: black .3rem .1rem ;
 }
 
 .hero-image-container img {
