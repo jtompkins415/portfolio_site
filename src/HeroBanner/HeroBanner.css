@@ -16,7 +16,7 @@
     transition-property: opacity, width;
     transition-duration:  1s; 
     transition-timing-function: ease-in-out ; 
-    transition-delay: 1s; 
+    transition-delay: 1.5s; 
 }
 
 
@@ -39,7 +39,7 @@
     transition-property: opacity, height;
     transition-duration: 1s; 
     transition-timing-function: ease-in-out;
-    transition-delay: 1s;
+    transition-delay: 2.5s;
 }
 
 .hero-subtitle h2 {
