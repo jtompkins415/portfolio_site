@@ -6,7 +6,7 @@
     margin-top: 3rem;
     margin-right: 30px;
     width: 500px;
-    border: #11F5B8 3px solid;
+    /* border: #60C661 3px solid; */
     border-radius: 15%;
     padding: 50px;
 }
@@ -15,7 +15,16 @@
 
 .description-container {
     font-family: 'Jost', sans-serif;
-    color: #FFFFFF;
+    color: #170C05;
+}
+
+
+.icon-container h4 {
+    text-decoration: underline;
+}
+
+.image-container {
+    width: 350px;
 }
 
 .image-container img {
