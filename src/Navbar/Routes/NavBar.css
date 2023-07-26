@@ -11,31 +11,53 @@
 
 .logo-container {
     margin-right: 4rem;
-    color:#FFFFFF;
+    color:#170C05;
 }
 
 .navlink-container .nav-link {
     margin: auto -5rem;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #170C05;
     opacity: 100%;
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     letter-spacing: .5rem;
-    transition-property: color, letter-spacing;
-    transition-duration: 1.5s;
-    
-    
 }
 
-.nav-link:hover {
-    color: #4AFFAD;
+
+.orange {
+    transition-property: color, letter-spacing;
+    transition-duration: 1.5s;
+}
+
+.orange:hover {
+    color: #C47541;
     letter-spacing: .7rem;
-    
+}
+
+.blue {
+    transition-property: color, letter-spacing;
+    transition-duration: 1.5s;
+}
+
+.blue:hover {
+    color: #06aeb7;
+    letter-spacing: .7rem;
+}
+
+.green {
+    transition-property: color, letter-spacing;
+    transition-duration: 1.5s;
+}
+
+.green:hover {
+    color: #60C661;
+    letter-spacing: .7rem;
 }
 
 .navlink-container-social {
     margin-top: -.7rem;
+    margin-right: .7rem;
 }
 
 .nav-link-social {
