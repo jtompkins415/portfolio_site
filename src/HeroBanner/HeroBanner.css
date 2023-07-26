@@ -3,8 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    margin-bottom: 5rem;
-
+    margin-bottom: 10rem;
 }
 
 .hero-title {
@@ -12,7 +11,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 600px;   
+    width: 600px;
+    opacity:0;
+    transition-property: opacity, width;
+    transition-duration:  1s; 
+    transition-timing-function: ease-in-out ; 
+    transition-delay: 1s; 
 }
 
 
@@ -24,7 +28,18 @@
     text-align: start;
     letter-spacing: 1.5rem;
     width: 600px;
-    border-right: #C47541 3px solid;
+    
+    
+}
+
+.hero-subtitle {
+    height: 71px;
+    margin-left: 5rem;
+    opacity: 0;
+    transition-property: opacity, height;
+    transition-duration: 1s; 
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
 }
 
 .hero-subtitle h2 {
@@ -32,13 +47,38 @@
     font-family: 'Jost', sans-serif;
     font-weight: 300;
     font-size: 2rem;
-    width: 300px;
+    width: 400px;
     text-transform: uppercase;
     font-style: italic;
     border-radius: 50%;
+   
 }
 
 .hero-image-container img {
     width: 400px;
     border-radius: 30%;
+}
+
+.verticle-line {
+    width: 3px;
+    height: 0px;
+    background-color: #C47541;
+    margin: 0;
+    transition-property: height;
+    transition-duration: 1.5s ;
+    transition-timing-function: ease-in-out;
+}
+
+.fade-in-title {
+    width: 550px;
+    opacity: 1;
+}
+
+.fade-in-subtitle {
+    height: 160px;
+    opacity: 1;
+}
+
+.fade-in-line {
+    height: 200px;
 }
