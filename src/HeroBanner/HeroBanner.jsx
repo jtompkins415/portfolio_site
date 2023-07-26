@@ -8,8 +8,11 @@ function HeroBanner(){
     return (
         <div className={'hero-container'}>
             <div className='hero-title'>
-                <h1>John Tompkins.</h1>
-                <h2>Web Developer</h2> 
+                <h1>John Tompkins</h1>
+            </div>
+            <div className='hero-subtitle'>
+                 <h2>Web Developer</h2>
+                <h2>Designer</h2> 
             </div>    
         </div>
     )
