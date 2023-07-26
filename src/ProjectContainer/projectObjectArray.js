@@ -15,8 +15,8 @@ export const projectObjectArray = [
     {
         name: 'LEAGUEPULSE',
         description: 'LeaguePulse is an exhilarating web application designed to elevate your fantasy sports experience. With LeaguePulse, you can effortlessly create newsletter-style briefs, capturing the heart-pounding excitement of your weekly fantasy league matchups.',
-        techStack: ['React','Vite', 'TailwindCSS','Ant Design', 'MongoDB', 'Express.js' ],
-        imgSrc: '',
+        techStack: ['React-Vite', 'TailwindCSS','Ant Design', 'MongoDB', 'Express.js' ],
+        imgSrc: 'src/assets/project-pics/LeaguePulse_Landing_Screenshot.png',
         url: ''
     }
 ]
