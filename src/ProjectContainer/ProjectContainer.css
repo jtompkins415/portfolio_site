@@ -9,7 +9,7 @@
 
 .title-container h2 {
     font-family: 'Jost', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #170C05;
     text-transform: uppercase;
@@ -25,5 +25,11 @@
     width: 100%;
     max-width: 900px;
     margin-left: 2rem;
+    margin-top: -3rem;
     /* margin-right: 50px; */
+}
+
+.project-shape-blue {
+    background-color: #E93F33;
+    height: 3px;
 }
