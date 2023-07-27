@@ -1,8 +1,9 @@
 .hero-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 10rem;
 }
 
@@ -11,7 +12,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 600px;
+    width: 550px;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    transform: translateY(-50%);
+    z-index: 2;
     opacity:0;
     transition-property: opacity, width;
     transition-duration:  1s; 
@@ -33,6 +39,11 @@
 }
 
 .hero-subtitle {
+    position: absolute;
+    top: 24rem;
+    left: 5rem;
+    z-index: 2;
+    transform: translateY(-50%);
     height: 71px;
     margin-left: 5rem;
     opacity: 0;
@@ -54,19 +65,32 @@
    
 }
 
-.hero-image-container img {
-    width: 400px;
+.hero-img-container {
+    position: relative;
+    left: 40rem;
+    z-index: 1;
+    opacity: 0;
+    transition-property: left, opacity;
+    transition-duration: 1.5s; 
+    transition-timing-function: ease-in-out;
+    
+}
+
+.hero-img-container img {
+    width: 600px;
     border-radius: 30%;
 }
 
-.verticle-line {
-    width: 3px;
-    height: 0px;
-    background-color: #C47541;
-    margin: 0;
-    transition-property: height;
-    transition-duration: 1.5s ;
+.horizontal-line {
+    background-color: #3470BD;
+    height: 4px;
+    width: 0px;
+    opacity: 0;
+    transition-property: opacity, width;
+    transition-duration: 1s;
     transition-timing-function: ease-in-out;
+    transition-delay: 2.7s;
+
 }
 
 .fade-in-title {
@@ -80,5 +104,11 @@
 }
 
 .fade-in-line {
-    height: 200px;
+    width: 400px;
+    opacity: 1;
+}
+
+.fade-in-img {
+    opacity: 1;
+    left: 7rem;
 }
