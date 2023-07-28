@@ -7,7 +7,7 @@ function ProjectContainer(){
     return(
         <div className="main-container">
             <div className="title-container">
-               <h2>Recent Projects</h2> 
+               <h2>Projects</h2> 
             </div>
             <div className="project-content-container">
                 <Project projectObject={projectObjectArray[0]} />
