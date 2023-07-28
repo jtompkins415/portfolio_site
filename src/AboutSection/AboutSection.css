@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 1rem;
     width: 100%;
     
     opacity:0;
@@ -29,7 +29,7 @@
     align-items: center;
     width: 100%;
     max-width: 900px;
-    margin-top: -1rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     opacity:0;
     transition: opacity 1s ease-in-out;
@@ -54,7 +54,7 @@
 
 .profile-image-container img {
     width: 400px;
-    border-radius: 50%;
+    border-radius: 5%;
     
 }
 
