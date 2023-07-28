@@ -27,7 +27,18 @@ function AboutSection(){
                     </div>
                     <div className={`profile-image-container ${isVisible ? 'fade-in' : ''}`}>
                         <img className={isVisible ? 'fade-in' : ''}
-                        src='src/assets/newProfPic.jpg' alt='profile-pic'
+                        src='src/assets/mountain_about.JPG' alt='profile-pic'
+                        onLoad={handleOnLoad}
+                        style= {{opacity: isImageLoaded ? 1:0}} />
+                    </div>
+                </div>
+                <div className={`content-container ${isVisible ? 'fade-in' : ''}`}>
+                    <div className={`text-container ${isVisible ? 'fade-in' : ''}`}>
+                        <p>When I'm not helping build websites, I enjoy spending my time in nature, traveling to new destinations, and indulging in some great food & drink</p>
+                    </div>
+                    <div className={`profile-image-container ${isVisible ? 'fade-in' : ''}`}>
+                        <img className={isVisible ? 'fade-in' : ''}
+                        src='src/assets/mountain_about.JPG' alt='profile-pic'
                         onLoad={handleOnLoad}
                         style= {{opacity: isImageLoaded ? 1:0}} />
                     </div>
