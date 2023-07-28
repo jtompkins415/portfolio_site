@@ -1,7 +1,11 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './Navbar/Routes/NavBar';
-import HeroBanner from './HeroBanner/HeroBanner';
-import ProjectContainerLanding from './ProjectLanding/ProjectContainerLanding';
+import Landing from './pages/Landing';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+
 
 
 function App() {
@@ -10,8 +14,23 @@ function App() {
   return (
     <>
         <NavBar />
-        <HeroBanner />
-        <ProjectContainerLanding />
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path='/'
+              element={<Landing />} />
+            <Route 
+              path='/about'
+              element={<About />} />
+            <Route
+              path='/projects'
+              element={<Projects />} />
+            <Route
+              path='/contacts'
+              element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
+        
     </>
   )
 }
