@@ -10,25 +10,28 @@ function NavBar(){
         <ThemeProvider theme={theme}>
             <div className='navbar-container'>
                 <div className='logo-container'>
-                    <span>(Logo Here)</span>
+                    <Link
+                    href='/'
+                    underline='none'
+                    >LOGO</Link>
                 </div>
                 <div className='navlink-container'>
                   <Link 
-                  href='#' 
+                  href='/about' 
                   className='nav-link orange'
                   underline='none'
                   >About</Link>
                   </div>
                   <div className='navlink-container'>
                   <Link 
-                  href='#' 
+                  href='/projects' 
                   className='nav-link blue'
                   underline='none'
                   >Projects</Link>
                   </div>
                   <div className='navlink-container'>
                   <Link 
-                  href='#' 
+                  href='/contacts' 
                   className='nav-link green'
                   underline='none'
                   >Contact</Link> 
