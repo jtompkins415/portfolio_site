@@ -16,8 +16,7 @@ function HeroBanner(){
             </div>
             <div className={`hero-subtitle ${isVisible ? 'fade-in-subtitle' : ''}`}>
                  <h2>Frontend Developer</h2>
-                 <div className={`horizontal-line ${isVisible ? 'fade-in-line' : ''}`}></div>
-                <h2>Designer</h2> 
+                 <div className={`horizontal-line ${isVisible ? 'fade-in-line' : ''}`}></div> 
             </div>
             <div className={`hero-img-container ${isVisible ? 'fade-in-img' : ''}`}>
                 <img src='src/assets/newProfPic.jpg'/>

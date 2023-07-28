@@ -15,7 +15,7 @@
     width: 550px;
     position: absolute;
     top: 5rem;
-    left: 5rem;
+    left: 3rem;
     transform: translateY(-50%);
     z-index: 2;
     opacity:0;
@@ -39,9 +39,10 @@
 }
 
 .hero-subtitle {
+    text-align: start;
     position: absolute;
     top: 24rem;
-    left: 5rem;
+    left: 1rem;
     z-index: 2;
     transform: translateY(-50%);
     height: 71px;
@@ -77,8 +78,8 @@
 }
 
 .hero-img-container img {
-    width: 600px;
-    border-radius: 30%;
+    width: 500px;
+    border-radius: 40%;
 }
 
 .horizontal-line {
@@ -94,7 +95,7 @@
 }
 
 .fade-in-title {
-    width: 550px;
+    width: 600px;
     opacity: 1;
 }
 
@@ -110,5 +111,5 @@
 
 .fade-in-img {
     opacity: 1;
-    left: 7rem;
+    left: 15rem;
 }
