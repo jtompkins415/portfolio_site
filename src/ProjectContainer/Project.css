@@ -31,3 +31,7 @@
     width: 350px;
     border-radius: 10%;
 }
+
+.project-button:hover {
+    background-color: #00756A !important;
+}

@@ -18,7 +18,16 @@ function Project({projectObject, handleOnLoad}) {
                     {techStack.map((tech, index) => (<p key={index}>{tech}</p>))}  
                 </div>
             </div>
-                <Button variant='contained' href={url} style={{backgroundColor: '#009E8E', color: '#FFFFFF'}}>Learn More</Button>
+                <Button 
+                variant='contained'
+                className="project-button" 
+                href={url} 
+                style={{
+                    backgroundColor: '#009E8E', 
+                    color: '#FFFFFF'}}
+                >
+                    Learn More
+                </Button>
         </div>
     )
 };
