@@ -14,7 +14,16 @@ function ProjectLanding({projectObject}) {
                 <h3>{name}</h3>
                 <p>{description}</p>
             </div>
-                <Button variant='contained' style={{backgroundColor: '#009E8E', color: '#FFFFFF'}}>Learn More</Button>
+                <Button 
+                variant='contained'
+                href={url}
+                className='project-button' 
+                style={{
+                    backgroundColor: '#009E8E', 
+                    color: '#FFFFFF'}}
+                >
+                    Learn More
+                </Button>
         </div>  
                   
     );
