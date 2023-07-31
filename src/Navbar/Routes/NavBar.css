@@ -16,6 +16,8 @@
     color:#170C05;
 }
 
+
+
 .navlink-container .nav-link {
     margin: auto -5rem;
     text-decoration: none;
@@ -24,6 +26,16 @@
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     letter-spacing: .5rem;
+}
+
+.gold {
+    transition-property: color, letter-spacing;
+    transition-duration: 1.5s;
+}
+
+.gold:hover {
+    color: #D9AF21;
+    letter-spacing: .7rem;
 }
 
 
@@ -53,7 +65,7 @@
 }
 
 .green:hover {
-    color: #119E2B;
+    color: #00DBA4;
     letter-spacing: .7rem;
 }
 

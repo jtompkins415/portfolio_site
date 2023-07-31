@@ -1,13 +1,11 @@
 import * as React from 'react';
 import { Link } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
-import theme from '../../assets/colorTheme';
 import './NavBar.css'
 function NavBar(){
 
 
     return (
-        <ThemeProvider theme={theme}>
+  
             <div className='navbar-container'>
                 <div className='logo-container'>
                     <Link
@@ -15,6 +13,13 @@ function NavBar(){
                     underline='none'
                     >LOGO</Link>
                 </div>
+                <div className='navlink-container'>
+                  <Link 
+                  href='/' 
+                  className='nav-link gold'
+                  underline='none'
+                  >Home</Link>
+                  </div>
                 <div className='navlink-container'>
                   <Link 
                   href='/about' 
@@ -48,7 +53,7 @@ function NavBar(){
                 </div>
                 
             </div>
-        </ThemeProvider>
+     
     );
 };
 
