@@ -1,25 +1,31 @@
 import ProjectLanding from "./ProjectLanding";
 import { projectObjectArray } from "../ProjectContainer/projectObjectArray";
-import '../ProjectContainer/ProjectContainer.css'
+import './ProjectContainerLanding.css';
+import FadeInSection from "../FadeInSection/FadeInSection";
 
 function ProjectContainerLanding(){
 
     return(
-        <div className="main-container">
-            <div className="title-container">
-                <div className="project-shape-red" style={{
+        <>
+        <FadeInSection>
+            <div className='landing-main-container'>
+            <div className="landing-title-container">
+                <div className="landing-project-shape-red" style={{
                     width: '200px',
                     marginLeft: '6rem'
                 }}></div>
                 <h2>Recent Projects</h2>
-                <div className="project-shape-red"></div> 
+                <div className="landing-project-shape-red"></div> 
             </div>
-            <div className="project-content-container">
+            <div className="landing-project-content-container">
                 <ProjectLanding projectObject={projectObjectArray[1]} />
                 <ProjectLanding projectObject={projectObjectArray[0]} />
                 <ProjectLanding projectObject={projectObjectArray[2]} />
             </div>
         </div>
+        </FadeInSection>
+        </>
+        
     )
 }
 
