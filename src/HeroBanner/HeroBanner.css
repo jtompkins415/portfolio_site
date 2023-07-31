@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 }
 
 .hero-title {
@@ -20,7 +20,7 @@
     z-index: 2;
     opacity:0;
     transition-property: opacity, width;
-    transition-duration:  1s; 
+    transition-duration:  .6s; 
     transition-timing-function: ease-in-out ; 
     transition-delay: 1.5s; 
 }
@@ -49,9 +49,9 @@
     margin-left: 5rem;
     opacity: 0;
     transition-property: opacity, height;
-    transition-duration: 1s; 
+    transition-duration: .6s; 
     transition-timing-function: ease-in-out;
-    transition-delay: 2.5s;
+    transition-delay: 2s;
 }
 
 .hero-subtitle h2 {
@@ -83,7 +83,7 @@
 }
 
 .horizontal-line {
-    background-color: #3470BD;
+    background-color: #00DBA4;
     height: 4px;
     width: 0px;
     opacity: 0;
