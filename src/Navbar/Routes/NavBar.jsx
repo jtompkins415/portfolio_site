@@ -11,7 +11,7 @@ function NavBar(){
                     href='/'
                     underline='none'
                     >
-                      <img src='/src/assets/logo_green.png'/>
+                      <img src='./src/assets/logo_green.png'/>
                     </Link>
                 </div>
                 <div className='navlink-container'>
