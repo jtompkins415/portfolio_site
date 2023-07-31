@@ -27,7 +27,7 @@ function AboutSection(){
                     </div>
                     <div className={`profile-image-container ${isVisible ? 'fade-in' : ''}`}>
                         <img className={isVisible ? 'fade-in' : ''}
-                        src='public/assets/mountain_about.JPG' alt='profile-pic'
+                        src='/mountain_about.JPG' alt='profile-pic'
                         onLoad={handleOnLoad}
                         style= {{opacity: isImageLoaded ? 1:0}} />
                     </div>
