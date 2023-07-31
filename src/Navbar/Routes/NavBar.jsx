@@ -11,7 +11,7 @@ function NavBar(){
                     href='/'
                     underline='none'
                     >
-                      <img src='./src/assets/logo_green.png'/>
+                      <img src='public/assets/logo_green.png'/>
                     </Link>
                 </div>
                 <div className='navlink-container'>
@@ -38,12 +38,12 @@ function NavBar(){
                 <div className='navlink-container-social'>
                   <Link 
                   href='https://github.com/jtompkins415' className='nav-link-social' underline='none'
-                  ><img className='nav-social-img' src='/src/assets/github-mark/github-mark.png' alt='github-logo' width={45}/></Link>
+                  ><img className='nav-social-img' src='public/assets/github-mark/github-mark.png' alt='github-logo' width={45}/></Link>
                   <Link 
                   href='https://www.linkedin.com/in/jtompkins415/' 
                   className='nav-link-social'
                   underline='none'
-                  ><img className='nav-social-img' src='src/assets/Black-linkedin-logo-design-on-transparent-background-PNG.png'  style={{ filter: 'hue-rotate(270deg)' }}/></Link>
+                  ><img className='nav-social-img' src='public/assets/Black-linkedin-logo-design-on-transparent-background-PNG.png'  style={{ filter: 'hue-rotate(270deg)' }}/></Link>
                 </div>
                 
             </div>
