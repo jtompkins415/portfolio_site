@@ -11,12 +11,24 @@
 }
 
 .logo-container {
+    margin-top: -1rem;
     margin-left: 2rem;
     margin-right: 4rem;
     color:#170C05;
 }
 
+.logo-container img {
+    width: 40px;
+    transition-property: width, filter; 
+    transition-duration: .5s; 
+    transition-timing-function: ease-in;
+}
 
+.logo-container img:hover {
+    width: 45px;
+    filter: drop-shadow(7px 2px 4px black);
+
+}
 
 .navlink-container .nav-link {
     margin: auto -5rem;
@@ -79,6 +91,11 @@
     text-decoration: none;
 }
 
-.nav-social-img{
-    filter: hue-rotate(270deg);
+.nav-social-img {
+    width: 45px;
+    transition: width .5s ease-in;
+}
+
+.nav-social-img:hover {
+    width: 50px;
 }
