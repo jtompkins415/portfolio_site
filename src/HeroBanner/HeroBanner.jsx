@@ -21,7 +21,7 @@ function HeroBanner(){
                     <div className={`horizontal-line ${isVisible ? 'fade-in-line' : ''}`}></div> 
                 </div>
                 <div className={`hero-img-container ${isVisible ? 'fade-in-img' : ''}`}>
-                    <img src='public/assets/newProfPic.jpg'/>
+                    <img src='/assets/newProfPic.jpg'/>
                 </div>
             </div>
             <div className={`hero-icon-container ${isVisible ? 'fade-in-icon' : ''}`}>
