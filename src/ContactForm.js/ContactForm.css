@@ -3,10 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 15rem;
     padding-bottom: 7rem;
     width: 100%;
+    opacity: 0;
+    transition: opacity .6s ease-in 
+}
+
+.form-title-container {
+    opacity: 0;
+    transition: opacity .6s ease-in
 }
 
 .form-title-container h2 {
@@ -26,10 +33,14 @@
     align-items: center;
     width: 100%;
     max-width: 900px;
+    opacity: 0;
+    transition: opacity .6s ease-in
 }
 
 .form-cta-container {
     width: 75%;
+    opacity: 0;
+    transition: opacity .6s ease-in
 }
 
 .form-cta-container p{
@@ -48,6 +59,8 @@
     max-width: 900px;
     color: #170C05;
     font-family: 'Jost', sans-serif;
+    opacity: 0;
+    transition: opacity .6s ease-in
 }
 
 .form-container label,
@@ -62,3 +75,8 @@
 .form-container textarea {
     resize: vertical;
   }
+
+
+.fade-in {
+    opacity: 1;
+}

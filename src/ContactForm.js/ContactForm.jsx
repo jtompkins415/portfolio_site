@@ -1,11 +1,11 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com'
 import { variableObject } from './variableObjectPrivate';
 import './ContactForm.css';
 
 function ContactForm(){
-    
+
     const {serviceId, templateId, publicKey} = variableObject
 
     const SERVICE_ID = serviceId;
@@ -51,18 +51,23 @@ function ContactForm(){
         })
      }
 
+     const [isVisible, setIsVisible] = useState(false);
+
+     useEffect(() => {
+        setIsVisible(true);
+     }, [])
 
     return(
-        <div className='form-main-container'>
-            <div className='form-title-container'>
+        <div className={`form-main-container ${isVisible ? 'fade-in' : ''}` }>
+            <div className={`form-title-container ${isVisible ? 'fade-in' : ''}`}>
                 <h2> Let's Collaborate! </h2>
             </div>
-            <div className='form-content-container'>
-                <div className='form-cta-container'>
+            <div className={`form-content-container ${isVisible ? 'fade-in' : ''}`}>
+                <div className={`form-cta-container ${isVisible ? 'fade-in' : ''}`}>
                     <p>Let's join forces and turn your vision into reality.</p>
                     <p>Don't hesitate to reach out and share your project details with me. Whether you have a clear roadmap or just a spark of an idea, I'll listen attentively and work closely with you to deliver a tailor-made solution that meets your needs and exceeds your expectations.</p>
                 </div>
-                <div className='form-container'>
+                <div className={`form-container ${isVisible ? 'fade-in' : ''}`}>
                     <form onSubmit={handleSubmit}>
                         <label htmlFor='name'>Name: </label>
                         <input 
