@@ -5,7 +5,8 @@ function ProjectLanding({projectObject}) {
     const {name, description, imgSrc, url} = projectObject;
 
     return (
-        <div className="project-container">
+        
+             <div className="project-container">
             <div className="image-container">
                 <img src={imgSrc} alt='project-snapshot'/>
             </div>
@@ -13,8 +14,9 @@ function ProjectLanding({projectObject}) {
                 <h3>{name}</h3>
                 <p>{description}</p>
             </div>
-                <Button variant='contained'>Learn More</Button>
-        </div>             
+                <Button variant='contained' style={{backgroundColor: '#009E8E', color: '#FFFFFF'}}>Learn More</Button>
+        </div>  
+                  
     );
 
 };
