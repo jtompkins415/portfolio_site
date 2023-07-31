@@ -94,6 +94,12 @@
 
 }
 
+.hero-icon-container {
+    margin-top: -5rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out 2.7s;
+}
+
 .fade-in-title {
     width: 600px;
     opacity: 1;
@@ -112,4 +118,8 @@
 .fade-in-img {
     opacity: 1;
     left: 15rem;
+}
+
+.fade-in-icon {
+    opacity: 1;
 }
