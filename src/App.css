@@ -16,4 +16,18 @@ body {
   background-color: #fcf2f0;
 }
 
+@media screen and (max-width: 768px) {
+  
+#root {
+  width: 200%;
+}
 
+}
+
+
+@media screen and (max-width: 425px) {
+
+  #root {
+    width: 200%;
+  }
+}

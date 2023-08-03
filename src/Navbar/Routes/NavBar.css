@@ -10,6 +10,7 @@
     
 }
 
+
 .logo-container {
     margin-top: -1rem;
     margin-left: 2rem;
@@ -98,4 +99,23 @@
 
 .nav-social-img:hover {
     width: 50px;
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        width: 100%;
+        margin: 3rem auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+
+    .navlink-container .nav-link {
+        margin: 1rem auto;
+
+    }
+
+    .navlink-container-social{
+        margin-left: 5rem;
+    }
 }
