@@ -119,3 +119,10 @@
         margin-left: 5rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .navbar-container {
+        width: 100%;
+        margin: 3rem 2rem;
+    }
+}
